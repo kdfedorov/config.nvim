@@ -14,8 +14,7 @@ vim.g.have_nerd_font = false
 -- Make line numbers default
 vim.opt.number = true
 -- You can also add relative line numbers, to help with jumping.
---  Experiment for yourself to see if you like it!
--- vim.opt.relativenumber = true
+vim.opt.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
@@ -25,6 +24,13 @@ vim.opt.showmode = false
 
 -- Enable break indent
 vim.opt.breakindent = true
+
+-- Set tab size.
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+
+-- Expand tab to spaces.
+vim.opt.expandtab = true
 
 -- Save undo history
 vim.opt.undofile = true
@@ -60,7 +66,7 @@ vim.opt.inccommand = 'split'
 vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
-vim.opt.scrolloff = 15
+vim.opt.scrolloff = 20
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
