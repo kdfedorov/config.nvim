@@ -3,7 +3,9 @@ vim.opt.tabstop = 4
 vim.opt.expandtab = true
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.termguicolors = true
 vim.g.mapleader = ' '
+vim.cmd 'colorscheme industry'
 
 local ensure_packer = function()
     local fn = vim.fn
